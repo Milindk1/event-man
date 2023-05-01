@@ -17,8 +17,7 @@
           <div id="countdown"></div>
 
           <div>
-            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><strong
-                id="demo"><br></strong></h1>
+            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><strong id="demo"><br></strong></h1>
 
           </div>
 
@@ -60,8 +59,8 @@
               <div class="icon"><span class="flaticon-guarantee"></span></div>
             </div>
             <div class="media-body p-2 mt-2">
-              <h3 class="heading mb-3">Best Price Guarantee</h3>
-              <p>A small river named Duden flows by their place and supplies.</p>
+              <h3 class="heading mb-3">Day 1</h3>
+              <p>Hackathon, Mini games, Tech Exhibition</p>
             </div>
           </div>
         </div>
@@ -71,8 +70,8 @@
               <div class="icon"><span class="flaticon-like"></span></div>
             </div>
             <div class="media-body p-2 mt-2">
-              <h3 class="heading mb-3">Travellers Love Us</h3>
-              <p>A small river named Duden flows by their place and supplies.</p>
+              <h3 class="heading mb-3">Day 2</h3>
+              <p>Entrepreneurship Summit, Esports, Bot designing </p>
             </div>
           </div>
         </div>
@@ -82,8 +81,8 @@
               <div class="icon"><span class="flaticon-detective"></span></div>
             </div>
             <div class="media-body p-2 mt-2">
-              <h3 class="heading mb-3">Best Travel Agent</h3>
-              <p>A small river named Duden flows by their place and supplies.</p>
+              <h3 class="heading mb-3">Day 3</h3>
+              <p>Ethical Hacking Workshop, Guest Lecture, Discovering AI</p>
             </div>
           </div>
         </div>
@@ -93,8 +92,8 @@
               <div class="icon"><span class="flaticon-support"></span></div>
             </div>
             <div class="media-body p-2 mt-2">
-              <h3 class="heading mb-3">Our Dedicated Support</h3>
-              <p>A small river named Duden flows by their place and supplies.</p>
+              <h3 class="heading mb-3">Day 4</h3>
+              <p>Recycle Tech Workshop, Tech-art competition, Closing Ceremony</p>
             </div>
           </div>
         </div>
@@ -105,8 +104,7 @@
     <div class="container">
       <div class="row justify-content-start mb-5 pb-3">
         <div class="col-md-7 heading-section ftco-animate">
-          <span class="subheading">Banners</span>
-          <h2 class="mb-4"><strong>Events</strong> Posters</h2>
+          <h2 class="mb-4"><strong>Glimpses</strong></h2>
         </div>
       </div>
       <div class="row">
@@ -115,7 +113,7 @@
             <div class="item">
               <div class="destination">
                 <a href="#" class="img d-flex justify-content-center align-items-center"
-                  style="background-image: url(images/cs01.jpg);">
+                  style="background-image: url(images/main.jpeg);">
 
                 </a>
 
@@ -124,7 +122,7 @@
             <div class="item">
               <div class="destination">
                 <a href="#" class="img d-flex justify-content-center align-items-center"
-                  style="background-image: url(images/cs02.jpg);">
+                  style="background-image: url(images/edu.jpeg);">
 
                 </a>
 
@@ -133,7 +131,7 @@
             <div class="item">
               <div class="destination">
                 <a href="#" class="img d-flex justify-content-center align-items-center"
-                  style="background-image: url(images/cs03.jpg);">
+                  style="background-image: url(images/carousel2.jpeg);">
 
                 </a>
 
@@ -142,7 +140,7 @@
             <div class="item">
               <div class="destination">
                 <a href="#" class="img d-flex justify-content-center align-items-center"
-                  style="background-image: url(images/destination-4.jpg);">
+                  style="background-image: url(images/c3.jpeg);">
 
                 </a>
 
@@ -151,7 +149,7 @@
             <div class="item">
               <div class="destination">
                 <a href="#" class="img d-flex justify-content-center align-items-center"
-                  style="background-image: url(images/destination-5.jpg);">
+                  style="background-image: url(images/c4.jpeg);">
 
                 </a>
 
@@ -160,7 +158,7 @@
             <div class="item">
               <div class="destination">
                 <a href="#" class="img d-flex justify-content-center align-items-center"
-                  style="background-image: url(images/destination-6.jpg);">
+                  style="background-image: url(images/bot.jpeg);">
 
                 </a>
 
@@ -176,7 +174,6 @@
     <div class="container" id="0">
       <div class="row justify-content-start mb-5 pb-3">
         <div class="col-md-7 heading-section ftco-animate">
-          <span class="subheading">events</span>
           <h2 class="mb-4"><strong>Book Your</strong> favourite event</h2>
         </div>
       </div>
@@ -218,10 +215,7 @@
 
                         if ($newtype_id == $type_id) {
 
-                          echo "
-                               
-                                   
-                                       
+                          echo "    
                                    <div class='col-md-6 col-lg-3 ftco-animate'>
                                    <div class='destination'>
                                      <a href='#' class='img img-2 d-flex justify-content-center align-items-center' style='background-image: url(./images/$img_link);'>
@@ -232,13 +226,12 @@
                                      <div class='text p-3'>
                                        <h3><a href='#'>$event_title</a></h3>
                                        <p class='price' style='font-weight: 400;font-size: 18px;color: #2f89fc;'>
-                                         $event_price
-                                         <span>RS</span>
+                                         $event_price<span>Rs</span>
                                        </p>
                                        <p>Far far away, behind the word mountains, far from the countries</p>
                                        <hr>
                                        <p class='bottom-area d-flex'>
-                                         <span><i class='icon-map-o'></i> Puneeth</span> 
+                                         <span><i class='icon-map-o'></i></span> 
                                          <span class='ml-auto'><a href='register.php?event_id=$event_id'>Book</a></span>
                                        </p>
                                      </div>
@@ -283,13 +276,12 @@
     <div class="container">
       <div class="row justify-content-start">
         <div class="col-md-5 heading-section ftco-animate">
-          <span class="subheading">Best Directory Website</span>
-          <h2 class="mb-4 pb-3"><strong>Why</strong> Choose Us?</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-            blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
-            ocean.</p>
-          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.
-          </p>
+          <span class="subheading">About us</span>
+          <h2 class="mb-4 pb-3"><strong>What</strong>Is TechTatva 2K23?</h2>
+          <p>MIT Manipal's national-level annual technical fest, TechTatva, is a platform for young, innovative minds
+            across the country to present themselves. With the theme 'Encircling Creations Where the Elements Collide,'
+            TechTatva'23 explores how we have sustained the resources provided by the four elements of nature, bringing
+            about some positive change in our society.</p>
           <p><a href="#" class="btn btn-primary btn-outline-primary mt-4 px-4 py-3">Read more</a></p>
         </div>
         <div class="col-md-1"></div>
@@ -309,12 +301,12 @@
                       </span>
                     </div>
                     <div class="text ml-md-4">
-                      <p class="mb-5">Dr .R.Balakrishna is currently working as a Professor & Principal, Dept. of
-                        Computer Science and Engineering since 2010. His research and professional career spans about 15
-                        years of Teaching & research, 1 Year Industrial Experience at TCS. His expertise is primarily in
-                        the domains of Ad hoc Networks, Mobile Computing, Networks, and Distributed OS.</p>
-                      <p class="name">Dr. R. Balakrishna</p>
-                      <span class="position">Professor and Principal</span>
+                      <p class="mb-5">Vinayak M is an Assistant Professor - Senior Scale in the Department of
+                        Information and Communication Technology(MIT MANIPAL), with a current academic role that includes teaching
+                        and research. He holds an MCA and an MTech in Networking, and has expertise and experience of over 10 years in the areas of
+                        Database Management Systems, Image Processing, and Network Security.</p>
+                      <p class="name">Dr. Vinayak M</p>
+                      <span class="position">Assistant Professor - Senior Scale</span>
                     </div>
                   </div>
                 </div>
@@ -327,14 +319,13 @@
                       </span>
                     </div>
                     <div class="text ml-md-4">
-                      <p class="mb-5">S. Usha, is working as a professor and head , CSE, RRCE. Graduated from
-                        Manonmanium Sundaranar University, in Computer Science and Engineering during the year 1998. She
-                        obtained her Master degree in Computer Science and Engineering and PhD degree from sathyabama
-                        university in the area of Mobile Ad Hoc Networks in the year 2013. She has 54 publications in
-                        International and National conferences, 22 publication in national journal and international
-                        journals in the area of Mobile Ad hoc Networks and wireless security.</p>
-                      <p class="name">Dr. Usha S</p>
-                      <span class="position">Professor & HOD</span>
+                      <p class="mb-5">Tojo Thomas is an Assistant Professor - Senior Scale in the Department of Data
+                        Science and Computer Applications(MIT MANIPAL). He holds an MCS in Computer Science and has over 8 years of
+                        experience in teaching and research. Currently, he serves as a coordinator for placement and
+                        student development programs, as well as the Department Head for the Computer Vision Research
+                        Group.</p>
+                      <p class="name">Dr. Tojo Thomas</p>
+                      <span class="position">Assistant Professor - Senior Scale</span>
                     </div>
                   </div>
                 </div>

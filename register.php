@@ -24,36 +24,15 @@ include "cssjs/css.php";
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
           <div class="col-md-9 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><strong>Explore <br></strong> your favourite event</h1>
-            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Fest starts in</p>
+            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><strong>Register<br></strong>for your favourite event</h1>
+            
             <div>
             <h1 class="mb-4"  data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><strong id="demo"><br></strong></h1>
             
             </div>
             
             <div class="browse d-md-flex col-md-12" >
-                <div class="row">
-                  <?php
-                  $type_query = "SELECT * FROM event_type";
-                  $run_query = mysqli_query($con,$type_query);
-                  
-                  if(mysqli_num_rows($run_query) > 0){
-                    $i=0;   
-                    while($row = mysqli_fetch_array($run_query)){
-                           
-                      $type_id = $row["type_id"];
-                      $type_title = $row["type_title"];
-                      $tag_id=$i++;
-                      echo "
-                      <span class='d-flex justify-content-center align-items-md-center'><a href='#$tag_id' style='border-radius:20px;margin-bottom:20px;'><i class=''></i>$type_title</a></span>
-                                   
-                      ";
-                    }
-                    
-                  }
-                  ?>
-            	
-            </div>
+                
             </div>
           </div>
         </div>
@@ -98,7 +77,7 @@ include "cssjs/css.php";
           
           </div>
 
-          <div class="col-md-6" id="map"></div>
+         
         </div>
       </div>
     </section>
@@ -117,8 +96,6 @@ include "includes/footer.php";
   include "cssjs/js.php";
 
   ?>
-  <script>
- 
-  </script>
+  
   </body>  
 </html>

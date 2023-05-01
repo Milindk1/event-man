@@ -8,10 +8,8 @@
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="#events" class="nav-link">Events</a></li>
-          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-          
-          <li class="nav-item cta"><a href="register.php?event_id=1" class="nav-link"><span>Register</span></a></li>
+          <li class="nav-item"><a href="#events" class="nav-link">Events</a></li>          
+          <li class="nav-item cta"><a href="./logout.php" class="nav-link"><span>Log Out</span></a></li>
         </ul>
       </div>
     </div>
