@@ -1,11 +1,4 @@
--- phpMyAdmin SQL Dump
--- version 4.8.2
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: Apr 14, 2019 at 06:39 PM
--- Server version: 10.1.34-MariaDB
--- PHP Version: 7.2.7
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -18,13 +11,7 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
---
--- Database: `csefest`
---
 
--- --------------------------------------------------------
-
---
 -- Table structure for table `events`
 --
 
